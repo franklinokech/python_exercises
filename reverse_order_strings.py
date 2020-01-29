@@ -20,3 +20,4 @@
 thislist = list(("apple","banana","cherry")) # Notice the double round brackets
 
 print(thislist[1])
+
