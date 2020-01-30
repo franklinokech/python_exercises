@@ -19,11 +19,5 @@ letters = ['a', 'b']
 
 # while loops
 # condition
-x = 0
-
-while x < 10:
-    if x == 5:
-        print('Five is found')
-        break
+for x in range(1, 10):
     print(x)
-    x += 1
