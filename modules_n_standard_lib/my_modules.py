@@ -8,9 +8,10 @@ def find_index(to_search, target):
 
     Args:
         to_search (list): list to search from
-        target (list): what we are looking for
+        target (string): what we are looking for
     """
     for i, value in enumerate(to_search):
         if value == target:
             return i
-        return -1
+        else:
+            return -1
